@@ -1,0 +1,219 @@
+.footer {
+  background-color: #1a1a1a;
+  padding-top: 40px;
+  padding-bottom: 46px;
+}
+
+.footer__main__block {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__main__block__abous-us {
+  width: 215px;
+}
+.footer__main__block__abous-us__title {
+  color: #ffffff;
+  padding-bottom: 23px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.footer__main__block__abous-us__image {
+  padding-bottom: 22px;
+}
+.footer__main__block__abous-us__descr {
+  color: #666666;
+  font-size: 12px;
+  line-height: 19px;
+}
+.footer__main__block__abous-us__read__more {
+  text-align: right;
+}
+
+.read__more__link {
+  font-size: 12px;
+  color: #0099ff;
+  line-height: 22px;
+}
+
+
+.footer__main__block__quick__links {
+  width: 228px;
+}
+
+.footer__main__block__title {
+  color: #ffffff;
+  padding-bottom: 23px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.quick__links__list {
+}
+.quick__link__item {
+  border-bottom: 1px solid #232323;
+}
+
+.quick__link__a__last {
+  border: none;
+}
+
+.read__more__link {
+  text-decoration: none;
+}
+
+.quick__links__a {
+  font-size: 12px;
+  color: #0099ff;
+  line-height: 24px;
+  padding-left: 16px;
+  position: relative;
+  text-decoration: none;
+  
+  
+}
+
+.quick__links__a::before {
+  content: "»";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #989898;
+  
+  
+}
+
+.footer__main__block__latest__blog__post {
+  width: 225px;
+}
+
+.blog__post__title {
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+  margin-bottom: 23px;
+}
+
+.footer__main__block__blog__post__box1 {
+  color: #666666;
+}
+
+.footer__main__block__box1__p1 {
+  font-size: 14px;
+
+}
+
+.footer__main__block__box1__p2 {
+  font-size: 10px;
+
+}
+
+.footer__main__block__box1__p3 {
+  font-size: 10px;
+
+}
+
+
+
+
+
+
+.footer__main__block__blog__post__box2 {
+  font-size: 12px;
+  color: #666666;
+  margin-top: 20px;
+}
+
+.footer__main__block__box2__p1 {
+
+}
+
+.footer__main__block__box2__p2 {
+
+}
+
+.footer__main__block__box2__p3 {
+
+}
+.footer__main__block__blog__post__read__more__first {
+  text-align: right;
+}
+
+
+.footer__main__block__contact {
+  width: 225px;
+}
+
+.footer__main__block__contact__title {
+  margin-bottom: 23px;
+  color: white;
+  
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.contact__btn {
+  padding: 20px;.
+}
+
+.contact__input {
+  padding: 11px;
+}
+
+.contact__input {
+  margin-bottom: 10px;
+}
+
+
+.contact__textarea {
+  resize: none;
+  
+}
+
+.contact__input,
+.contact__textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #232323;
+}
+
+.contact__input::placeholder {
+  color: #989898;
+  font-size: 13px;
+  outline: none;
+}
+
+.contact__textarea::placeholder {
+  color: #989898;
+  font-size: 13px;
+  padding-top: 8px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.contact__textarea {
+  color: #989898;
+  font-size: 13px;
+  outline: none;
+  height: 107px;
+  color: black;
+  
+}
+
+
+
+.contact__btn {
+  margin-top: 10px;
+  display: inline-block;
+  
+}
+.contact__btn__link {
+}
+
+
+.footer__main__block__abous-us__image__src {
+  width: 215px;
+  height: 90px;
+}

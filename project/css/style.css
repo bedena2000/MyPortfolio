@@ -1,0 +1,17 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Container */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}

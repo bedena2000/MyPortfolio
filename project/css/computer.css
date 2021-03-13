@@ -1,0 +1,83 @@
+.computer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+.computer__case {
+  display: flex;
+}
+.computer__case__image {
+}
+.computer__case__image__src {
+}
+.computer__case__right {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+.computer__case__item {
+  width: 222px;
+  height: 199px;
+  text-align: center;
+}
+
+.caseitem3,
+.caseitem4 {
+  margin-top: 33px;
+}
+
+.computer__case__item__image {
+}
+.computer__case__item__title {
+  font-size: 16px;
+  line-height: 20px;
+  color: #0099ff;
+
+}
+.computer__case__item__text {
+  margin-top: 20px;
+}
+
+.contact__btn {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.contact__case {
+  margin-top: 40px;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 120px;
+  border-left: 10px solid #0099ff;
+}
+.lorem__box {
+}
+.lorem__box__title {
+  font-size: 36px;
+  line-height: 43px;
+  color: #333333;
+}
+.lorem__box__descr {
+  font-size: 18px;
+  color: #333333;
+  line-height: 22px;
+
+}
+.contact__btn {
+  background-color: #0099ff;
+  padding: 20px 12px;
+  border-radius: 10px;
+}
+.contact__btn__link {
+  color: #e6e6e6;
+  text-decoration: none;
+  
+
+}

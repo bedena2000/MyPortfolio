@@ -1,0 +1,83 @@
+.slider__content {
+  background-color: #f1f1f1;
+}
+
+.slider__content__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.slider__content__info {
+  width: 353px;
+  height: 202px;
+  margin-top: 152px;
+  
+}
+.slider__content__info__title {
+  font-size: 36px;
+  font-weight: regular;
+  line-height: 36px;
+  color: #333333;
+  padding-bottom: 24px;
+}
+.slider__content__info__descr {
+  color: #666666;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: regualar;
+  padding-bottom: 23px;
+}
+.slider__content__info__btn {
+  background-color: #0099ff;
+  display: inline-block;
+  padding: 11px;
+  border-radius: 5px;
+}
+.slider__content__info__btn__link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+  
+}
+.slider {
+  
+}
+
+.slider__box {
+  width: 550px;
+  height: 440px;
+  outline: none;
+}
+
+.header-dots {
+  position: absolute;
+  bottom: 23px;
+  left: 21px;
+  display: flex;
+  font-size: 0px;
+  outline: none;
+}
+
+.header-dots li button {
+  font-size: 0px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  margin-left: 6px;
+  background-color: rgba(0,0,0,1);
+  outline: none;
+  cursor: pointer;
+}
+
+.header-dots .slick-active {
+ 
+}
+
+.header-dots .slick-active button {
+  background-color: transparent;
+  border: 2px solid black;
+  outline: none;
+}
