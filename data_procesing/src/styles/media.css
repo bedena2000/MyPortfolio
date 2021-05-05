@@ -1,0 +1,226 @@
+@media (max-width: 1020px) {
+  .information__inner {
+    flex-direction: column;
+  }
+
+  .information__logo__src {
+    margin-bottom: 50px;
+  }
+
+  .information__info {
+    text-align: center;
+  }
+
+  .information__feature__inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .information__item {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  /* Header */
+
+  .nav {
+    display: none;
+  }
+
+  .nav__link {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .log {
+    display: none;
+  }
+  .burger {
+    display: flex;
+    position: relative;
+    transition: all 0.4s linear;
+  }
+
+  .burger__background {
+    background-color: blue;
+    position: absolute;
+    top: 40px;
+    left: -200px;
+    z-index: 100;
+    width: 430px;
+    height: 100vh;
+    border-radius: 30%;
+    box-shadow: -11.09px 18.13px 36.6483px rgb(242 153 74 / 13%);
+    transition: all 0.4s linear;
+  }
+
+  .burger__background:hover {
+    box-shadow: none;
+    border-radius: 31%;
+  }
+
+  .show {
+    left: 120px;
+  }
+
+  .burger:hover {
+  }
+
+  .burger__top,
+  .burger__middle,
+  .burger__bottom {
+    margin-top: 2px;
+  }
+
+  
+
+
+  .nav__link {
+    position: relative;
+    top: 60px;
+    left: 100px;
+    margin-top: 20px;
+    transition: all 0.3s linear;
+  }
+
+  .nav__link:hover {
+    font-size: 13px;
+  }
+
+  /* Header */
+
+  /* Brands */
+
+  /* Brands */
+}
+
+@media (max-width: 800px) {
+  /* Brands */
+
+  .brands__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .brands__item {
+    opacity: 0.3;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* Brands */
+
+  /* Business */
+
+  .business {
+    flex-wrap: wrap;
+  }
+
+  .business__info {
+    width: 500px;
+  }
+
+  .business__logo {
+    margin-top: 150px;
+  }
+
+  .send__email__inner {
+    width: 540px;
+  }
+
+  /* Business */
+}
+
+@media (max-width: 682px) {
+  /* Your Choise */
+
+  /* Your Choise */
+}
+
+@media (max-width: 545px) {
+  .ways__box__inner {
+    flex-wrap: wrap;
+  }
+  .ways__item {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  /* Brands */
+
+  .brands__item {
+    width: 45%;
+  }
+
+  /* Brands */
+
+  .business {
+    text-align: center;
+  }
+
+  .busines__logo__src {
+    width: 360px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Send Email */
+
+  .send__email__inner {
+    width: 340px;
+  }
+
+  .send__email__button {
+    width: 205px;
+  }
+
+  .send__email__button__link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer__header__contact {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  /* Send Email */
+}
+
+@media (max-width: 345px) {
+  .learn__more {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+
+  .demo {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+}
+
+@media (max-width: 300px) {
+  .send__email__inner {
+    width: 200px;
+  }
+
+  .send__email__button {
+    width: 105px;
+  }
+
+  .send__email__button__link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer__header__contact {
+    display: flex;
+    margin-right: 20px;
+  }
+}
